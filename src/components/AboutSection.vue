@@ -50,6 +50,7 @@ export default {
   margin: auto;
   max-width: 800px;
   padding: 20px;
+  margin-bottom: 50px;
   h1 {
     margin: 0;
   }
