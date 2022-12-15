@@ -22,7 +22,7 @@
       </div>
       <ol class="about-list">
         <li>The shows above were performed either on Broadway, Off-Broadway or both in New York City.</li>
-        <li>The Tony Awards number is a summation of all awards every Broadway production of the show including revivals. </li>
+        <li>The Tony Awards number is a summation of all awards every Broadway production of the show has won including revivals. </li>
         <li>The year listed is the opening date of the first Broadway or Off-Broadway production.</li>
         <li>Created by <a href="https://musicalwebdev.com" target="_blank">Brittany Walker</a> using Vue.js and <a href="https://www.contentful.com" target="_blank">Contentful</a>.</li>
       </ol>
