@@ -8,5 +8,4 @@ A table showing a list of popular Broadway and Off-Broadway shows.
 
 ## Information
 * A Broadway version of the periodic table of musicals that have performed on Broadway and Off-Broadway. 
-* Frontend build with Vue.js 3
-* Using [Contentful](https://www.contentful.com/) for the content management
+* Frontend built with Vue.js 3
