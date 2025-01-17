@@ -17,6 +17,10 @@
           <p class="abbreviation">Abbreviation</p>
           <p class="name">Show Name</p>
           <p class="date">Opening Date</p>
+          <p class="legend-check">
+            <img alt="check icon" :src="require(`../assets/check.svg`)"
+              />
+          </p>
           <p class="tonys"># Tony Awards</p>
         </div>
       </div>
@@ -24,6 +28,7 @@
         <li>The shows above were performed either on Broadway, Off-Broadway or both in New York City.</li>
         <li>The Tony Awards number is a summation of all awards every Broadway production of the show has won including revivals. </li>
         <li>The year listed is the opening date of the first Broadway or Off-Broadway production.</li>
+        <li>The check marks the shows I have personally seen.</li>
         <li>Created by <a href="https://musicalwebdev.com" target="_blank">Brittany Walker</a> using Vue.js.</li>
       </ol>
     </div>
@@ -125,6 +130,13 @@ export default {
       }
     }
   }
+}
+
+.legend-check img {
+  height: 30px;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
 }
 
 </style>

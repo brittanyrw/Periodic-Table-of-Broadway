@@ -27,6 +27,10 @@
             {{ show.name }}
           </p>
           <p class="date">{{ new Date(show.startDate).toLocaleDateString('en-us', { year:"numeric"}) }}</p>
+          <p class="check" v-if="show.seen">
+            <img alt="check icon" :src="require(`../assets/check.svg`)"
+              />
+          </p>
           <p class="tonys" v-if="show.tonys">{{ show.tonys }}</p>
         </li>
       </ul>
@@ -133,6 +137,13 @@ p {
   border-top: 1px solid $black;
   border-left: 1px solid $black;
   padding: 2px 5px;
+}
+
+.check img {
+  height: 20px;
+  position: absolute;
+  left: 3px;
+  bottom: 3px;
 }
 
 .emotional {
