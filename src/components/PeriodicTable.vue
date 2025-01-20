@@ -108,6 +108,7 @@ p {
   padding: 2px;
   margin: 1px;
   transition: .5s ease-out;
+  cursor: pointer;
 }
 
 .show:hover {
