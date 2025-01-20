@@ -1,6 +1,6 @@
 # Periodic Table of Broadway
 
-A table showing a list of popular Broadway and Off-Broadway shows.
+This project is a periodic table style chart showing a list of popular Broadway and Off-Broadway shows.
 
 [View Live Project Here](https://periodic-table-of-broadway.netlify.app/)
 
